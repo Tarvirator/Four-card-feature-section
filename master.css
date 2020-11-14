@@ -3,22 +3,20 @@ body {
   font-size: 1rem;
   text-align: center;
   color: #4c4e61;
+  background-color: #fafafa;
 }
 
 .main {
   width: 1440px;
-
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .head1 {
   font-size: 225%;
   font-weight: 200;
   margin-bottom: 0;
-    color: #4c4e61;
-    padding-top: 1%;
+  padding-top: 2%;
 }
 
 .head2 {
@@ -26,7 +24,6 @@ body {
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 0;
-  color: #4c4e61;
 }
 
 .head3 {
@@ -36,15 +33,7 @@ body {
   width: 40%;
 }
 
-.teambuilder {
-  text-align: left;
-  width: 345px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: .7rem;
-  margin-top: 5%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 
 .team_head_1 {
   font-size: 150%;
@@ -93,19 +82,8 @@ body {
   margin-top: 0;
 }
 
-.teambuilder_2 {
-  text-align: left;
-  width: 345px;
-  border-radius: .7rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: inline-block;
-  margin-left: auto;
-  margin-right: 830px;
-  position: relative;
-  bottom:  430px;
 
 
-}
 .hr_blue {
   border-style: none;
   border-top-style: solid;
@@ -115,7 +93,29 @@ body {
   border-radius: 6px;
   margin-top: 0;
 }
+.teambuilder {
+  text-align: left;
+  width: 345px;
+  border-radius: .7rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  position: relative;
+  left: 12%;
+  margin-top: 5%;
+    background-color: white;
+}
 
+.teambuilder_4 {
+  text-align: left;
+  width: 345px;
+  background-color: white;
+  border-radius: .7rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+position: relative;
+right: 12%;
+top: 20rem;
+}
 
 .teambuilder_3 {
   text-align: left;
@@ -123,11 +123,20 @@ body {
   border-radius: .7rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
-  margin-right: auto;
-  margin-left: 830px;
   position: relative;
-  bottom:  700px;
+  right: 9%;
+  top:150px;
 
-
-
+  background-color: white;
+}
+.teambuilder_2 {
+  text-align: left;
+  width: 345px;
+  border-radius: .7rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  position: relative;
+left: 9%;
+top:150px;
+  background-color: white;
 }
